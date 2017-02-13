@@ -29,7 +29,7 @@ docker run hmmbug/tesserocr [-h|-t]
 ```
 
 - -h  Print the usage text
-- -t  Run a test script
+- -t  Run the test script
 
 # Shortcut
 
