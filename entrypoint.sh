@@ -23,7 +23,7 @@ Usage:
    docker run --name tesserocr hmmbug/tesserocr [-h|-t]
 
 		 -h  Print this usage text
-		 -t  Run a test script
+		 -t  Run the test script
 
 EOF
 }
