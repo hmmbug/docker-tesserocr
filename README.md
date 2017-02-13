@@ -37,7 +37,7 @@ docker run hmmbug/tesserocr [-h|-t]
 A shell alias can be a convenient way to run the container:
 
 ```
-alias tesserocr='docker run --rm -v `pwd`:/work -w /work hmmbug/tesserocr'
+alias tesserocr='docker run --rm -v \`pwd\`:/work -w /work hmmbug/tesserocr'
 ```
 
 Then just run:
