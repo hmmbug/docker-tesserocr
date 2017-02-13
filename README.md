@@ -16,7 +16,7 @@ where:
 - 'myapp.py' is the script to run
 - arg1 ... argn are the arguments to provide to the script
 
-== Run an interactive shell
+## Run an interactive shell
 
 ```
 docker run --rm -ti hmmbug/tesserocr /bin/sh
