@@ -2,6 +2,8 @@
 
 A docker container based on [hmmbug/tesseract](https://github.com/hmmbug/docker-tesseract) with Tesseract 4.00 (alpha), Python 2.7 and the tesseroct python bindings.
 
+This container has been produced for the [Digital Bangkok Recorder Project](http://markhollow.com/category/digital-bangkok-recorder/).
+
 # Usage
 
 ## Run a python script
