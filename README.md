@@ -1,10 +1,10 @@
-= docker-tesserocr
+# docker-tesserocr
 
 A docker container based on [hmmbug/tesseract](https://github.com/hmmbug/docker-tesseract) with Tesseract 4.00 (alpha), Python 2.7 and the tesseroct python bindings.
 
-= Usage
+# Usage
 
-== Run a python script
+## Run a python script
 
 ```
 docker run --name tesserocr -v appdir:/work -w work hmmbug/tesserocr myapp.py arg1 ... argn
@@ -22,7 +22,7 @@ where:
 docker run --rm -ti hmmbug/tesserocr /bin/sh
 ```
 
-== Other options
+## Other options
 
 ```
 docker run hmmbug/tesserocr [-h|-t]
@@ -32,7 +32,7 @@ docker run hmmbug/tesserocr [-h|-t]
 - -t  Run a test script
 ```
 
-= Shortcut
+# Shortcut
 
 A shell alias can be a convenient way to run the container:
 
@@ -65,7 +65,7 @@ Expected: The quick brown fox jumps over the lazy dog
 $
 ```
 
-= Test script
+# Test script
 
 The supplied test script loads a list of image files and performs OCR on them
 and then checks the actual output from the expected output.
